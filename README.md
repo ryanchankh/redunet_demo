@@ -20,3 +20,5 @@ and run jupyter notebook.
 
 ### Method 2: Google Collab
 You may click on the `gaussian3d.ipynb` link (or click [here](https://github.com/ryanchankh/redunet_demo/blob/master/gaussian3d.ipynb)), and click on **Open in Collab** icon. 
+
+Or click [here](https://colab.research.google.com/github/ryanchankh/redunet_demo/blob/master/gaussian3d.ipynb) to directly open the notebook in Google Collab. Note that you will need to sign in to your Google account to run. 

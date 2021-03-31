@@ -83,21 +83,13 @@ def generate_3d(data, noise, samples, shuffle=False):
     return X, Y, 3
 
 
-def plot_2d(inputs, labels, outputs):
-    fig, ax = plt.subplots(ncols=2, figsize=(8, 4))
-    for c in labels.unique():
-        ax[0].scatter(inputs[:, 0], inputs[:, 1], c=labels)
-        ax[0].set_ylim([-1.1, 1.1])
-        ax[0].set_xlim([-1.1, 1.1])
-        ax[0].set_title('X')
-        ax[1].scatter(outputs[:, 0], outputs[:, 1], c=labels)
-        ax[1].set_ylim([-1.1, 1.1])
-        ax[1].set_xlim([-1.1, 1.1])
-        ax[1].set_title('Z')
+def plot_2d(inputs, labels, title=''):
+    fig, ax = plt.subplots(ncols=1, figsize=(4, 4))
+    ax.scatter(inputs[:, 0], inputs[:, 1], c=labels)
+    ax.set_title(title)
     fig.tight_layout()
     plt.show()
-    plt.close() 
-
+    plt.close()
 
 def plot_3d(Z, y, title=''):
     colors = np.array(['green', 'blue', 'red'])

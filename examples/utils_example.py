@@ -102,9 +102,9 @@ def plot_2d(inputs, labels, outputs):
 def plot_3d(Z, y, title=''):
     colors = np.array(['green', 'blue', 'red'])
     colors = np.array(['forestgreen', 'royalblue', 'brown'])
-    fig = plt.figure(figsize=(5, 5))
+    fig = plt.figure(figsize=(7, 5))
     ax = fig.add_subplot(111, projection='3d')
-    ax.scatter(Z[:, 0], Z[:, 1], Z[:, 2], c=colors[y], cmap=plt.cm.Spectral, s=200.0)
+    ax.scatter(Z[:, 0], Z[:, 1], Z[:, 2], c=colors[y], cmap=plt.cm.Spectral, s=50.0)
 #     Z, _ = F.get_n_each(Z, y, 1)
 #     for c in np.unique(y):
 #         ax.quiver(0.0, 0.0, 0.0, Z[c, 0], Z[c, 1], Z[c, 2], length=1.0, normalize=True, arrow_length_ratio=0.05, color='black')
@@ -120,7 +120,7 @@ def plot_3d(Z, y, title=''):
     # [tick.label.set_fontsize(24) for tick in ax.xaxis.get_major_ticks()] 
     # [tick.label.set_fontsize(24) for tick in ax.yaxis.get_major_ticks()]
     # [tick.label.set_fontsize(24) for tick in ax.zaxis.get_major_ticks()]
-    ax.view_init(20, 15)
+    ax.view_init(15, 15)
     plt.tight_layout()
     plt.show()
     plt.close()

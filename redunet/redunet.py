@@ -97,7 +97,7 @@ class ReduNet(nn.Sequential):
         self.losses['loss_total'].append(loss_total)
         self.losses['loss_expd'].append(loss_expd)
         self.losses['loss_comp'].append(loss_comp)
-        print(f"{layer_i} | {loss_total:.6f} {loss_expd:.6f} {loss_comp:.6f}")
+        # print(f"{layer_i} | {loss_total:.6f} {loss_expd:.6f} {loss_comp:.6f}")
 
     def _isReduLayer(self, module):
         return isinstance(module, ReduLayer)

@@ -1,5 +1,5 @@
 # Demo for ReduNet
-This repository is the official demo of the paper [Deep Networks from the Principle of Rate Reduction](https://arxiv.org/abs/2010.14765) by [Kwan Ho Ryan Chan](https://ryanchankh.github.io)* (UC Berkeley), [Yaodong Yu](https://yaodongyu.github.io/)* (UC Berkeley), [Chong You](https://sites.google.com/view/cyou)* (UC Berkeley), [Haozhi Qi](https://haozhi.io/) (UC Berkeley), John Wright (Columbia), and Yi Ma (UC Berkeley). 
+This repository is the official demo of the paper [Deep Networks from the Principle of Rate Reduction](https://arxiv.org/abs/2010.14765) by [Kwan Ho Ryan Chan](https://ryanchankh.github.io)* (UC Berkeley), [Yaodong Yu](https://yaodongyu.github.io/)* (UC Berkeley), [Chong You](https://sites.google.com/view/cyou)* (Google), [Haozhi Qi](https://haozhi.io/) (UC Berkeley), John Wright (Columbia), and Yi Ma (UC Berkeley). 
 
 
 ## Required Packages
